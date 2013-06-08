@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="1873b301-e08b-4baa-b19c-2d070b470499" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="aca2b488-21a8-42b0-b367-cadc7e754ef2" name="客户端主程序">
+      <childLayers>
+        <layer Id="d592906a-5ccf-4708-b864-786cccd54117" name="插件管理">
+          <childLayers>
+            <layer Id="51b971ae-dae1-4fd0-bd82-827f0c6b2ba8" name="C++插件引用管理" />
+            <layer Id="86af2580-79ab-4fc7-a862-5e701263499e" name="COM组件注册管理" />
+            <layer Id="ff37b6fb-488a-42c1-8534-dc9985c6a908" name="插件调用" />
+          </childLayers>
+        </layer>
+        <layer Id="2bee3585-e5ee-4f58-902e-50116478cd20" name="登录/登出 管理" />
+        <layer Id="9bff832e-974e-49ea-a3c3-eebf3bebc67b" name="更新管理" />
+        <layer Id="87330aea-230d-47d8-96d0-8d1e40748ba3" name="功能权限管理" />
+        <layer Id="fe6d47e3-1c82-4a08-84f1-695e1150f17d" name="本地数据访问" />
+      </childLayers>
+    </layer>
+    <layer Id="e630efba-5205-4238-82da-31af584a62b2" name="外部插件">
+      <childLayers>
+        <layer Id="0354f3ad-39f1-4690-adb1-883bbc6c1ee1" name="C++ 编写的DLL" />
+        <layer Id="529e3678-0516-477d-a4ad-3547638fc2b0" name="C# 编写的COM组件" />
+      </childLayers>
+    </layer>
+    <layer Id="c00fe321-ba44-4a46-87f9-9f3a555c1516" name="本地数据">
+      <childLayers>
+        <layer Id="ed3ba263-7d15-4cf0-bc50-9ae195ade208" name="Sqlite" />
+      </childLayers>
+    </layer>
+    <layer Id="ecd781dd-6d31-4f0b-b368-1c5117d93ccd" name="服务端" />
+  </layers>
+</layerModel>
